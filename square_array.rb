@@ -2,8 +2,7 @@ def square_array(array)
   # your code here
   square = Array.new
   array.each do |num|
-    square 
-    
+    square << num * num
   end
-  
+  square
 end
